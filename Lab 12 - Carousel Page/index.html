@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carousel Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand">Carousel</a>
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+              <li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+            </ul>
+            <form action="" class="d-flex ms-auto">
+              <input type="text" class="form-control me-2" placeholder="Search"/>
+              <button class="btn btn-outline-success">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+        <!-- Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://anhdepfree.com/wp-content/uploads/2020/04/hinh-nen-phong-canh-toi.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h2>Example headline.</h2>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a href="#" class="btn btn-lg btn-primary">Sign up today</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/originals/5f/cc/80/5fcc80e2a77a4ce69467ea7f08e49fea.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h2>Another example headline</h2>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a href="#" class="btn btn-lg btn-primary">Sign up today</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.alphacoders.com/546/thumb-1920-546091.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h2>One more for good measure</h2>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a href="#" class="btn btn-lg btn-primary">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="text-start position-relative">
+      <div class="container">
+        <p class="p-5">&copy 2017 - 2021 Company, Inc. &#8226; <a href="#" class="me-2">Privacy</a>&#8226; <a href="#">Terms</a></p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
